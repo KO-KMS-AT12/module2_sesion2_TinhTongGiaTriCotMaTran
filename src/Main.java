@@ -48,7 +48,7 @@ public class Main {
         int sum = 0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                if (c - 1 == j) {
+                if (j == c - 1) {
                     sum += arr[i][c - 1];
                 }
             }
